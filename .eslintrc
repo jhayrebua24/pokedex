@@ -73,7 +73,7 @@
         "paths": ["src"],
         "extensions": [".js", ".ts", ".jsx", ".tsx", ".json"]
       }
-    }
-    // "import/extensions": [".js", ".ts", ".mjs", ".jsx", ".tsx"]
+    },
+    "import/extensions": [".js", ".ts", ".mjs", ".jsx", ".tsx"]
   }
 }
