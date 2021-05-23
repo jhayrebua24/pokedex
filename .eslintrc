@@ -51,6 +51,7 @@
       { "extensions": [".tsx", ".js", ".jsx", ".ts"] }
     ],
     "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "react/prop-types": ["off", {}],
     // import
