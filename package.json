@@ -29,7 +29,7 @@
     "build:css": "NODE_ENV=production  postcss src/assets/tailwind/tailwind.css -o src/assets/styles/styles.css",
     "watch:css": "postcss -w src/assets/tailwind/tailwind.css -o src/assets/styles/styles.css",
     "start": "npm-run-all -p watch:css start:react",
-    "build": "npm-run-all -s build:style build:react",
+    "build": "npm-run-all -s build:css build:react",
     "start:react": "react-scripts start",
     "build:react": "react-scripts build",
     "test": "react-scripts test",
